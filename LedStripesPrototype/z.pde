@@ -4,11 +4,12 @@ void keyPressed()
 {
   if (key == ' ')
   {
-    interactive=!interactive; // switch between automated and interactive modes
+    interactive=!interactive; // switch between automated and interactive modes 
+    // TODO: add 3 automated modes (1. random pulsating (idle mode), 2. intro, 3. flow mode)
   }
 }
 
-void drawInteraction()
+void updatePoint()
 {
   if (interactive)
   {

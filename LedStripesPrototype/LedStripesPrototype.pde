@@ -3,10 +3,10 @@ void draw()
   image(bg,0,0);
   for (int i=0; i<stripeAmount; i++)
   {
-    stripe[i].draw();
-    stripe[i].waitForInput(P);
+    stripe[i].draw(); // 
+    stripe[i].waitForInput(P); // stripe checks if trig point is trigging it
   }
-  drawInteraction();
+  updatePoint(); // update virtual point trigging particular stripes, check z.pde 
 }
 
 void setup()
@@ -29,7 +29,7 @@ int stripeHeight = 600;
 int dimStep = 5; // how fast is color dimming
 int gap = 50; // gap between stripes
 
-int P; // stripe animation control point
+int P; // stripe animation trigging point
 boolean interactive = false; // is animation interactive or not
 
 PImage bg, led; // image obejcts for better visuals (http://imgur.com/Tl5PGYM,N0n7rbM)
