@@ -1,0 +1,1 @@
+Processing sketch to test stripe animation effects for later implementation into arduino code. 
