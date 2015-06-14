@@ -1,3 +1,11 @@
 *.jpg
 *.png
 *.psd
+*.mp4
+ulstrasoudTrigger/obj/
+ulstrasoudTrigger/bin/
+ulstrasoudTrigger/ulstrasoudTrigger.vcxproj.filters
+ulstrasoudTrigger/ulstrasoudTrigger.sln
+ulstrasoudTrigger/ulstrasoudTrigger.opensdf
+ulstrasoudTrigger/ulstrasoudTrigger.sdf
+ulstrasoudTrigger/ulstrasoudTrigger.vcxproj

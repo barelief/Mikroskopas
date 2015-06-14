@@ -1,0 +1,5 @@
+ofxXmlSettings
+ofxAnimatable
+ofxScreenCurtain
+ofxSimpleSerial
+ofxTimer

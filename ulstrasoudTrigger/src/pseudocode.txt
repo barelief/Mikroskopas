@@ -1,0 +1,17 @@
+if (idleTimer>30)
+{
+	movie.fadeOut(); // aka close curtain;
+	locked.start();
+}
+
+if ("@" && !locked)
+{
+	if (idleTimer.isStopped())
+	{
+		movie.play();
+		timer.start();
+	} else timer.restart();
+}
+
+if (locked > 20)
+	locked = false;
