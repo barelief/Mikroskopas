@@ -1,0 +1,2 @@
+suletinti grizima dvigubai (dadek atskira esaing objekta) 
+use arduinothread library to sync ultarsound (SensorThread) ir ledus
