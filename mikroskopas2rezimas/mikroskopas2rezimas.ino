@@ -14,7 +14,7 @@
 #define ANALOG_PIN      0
 
 // how many millis to strobe over all the LEDs
-#define SCOPE_PERIOD    (3500 * NUM_TLCS)
+#define SCOPE_PERIOD    (3000 * NUM_TLCS)
 #define LED_PERIOD      SCOPE_PERIOD / (NUM_TLCS * 16)
 
 int state = 1; // jeigu state 1, tai pulsuojam, jeigu state 2 tai tunnel
@@ -41,7 +41,7 @@ void loop()
                   0,   // start fade value (0-4095)
                   4095,                            // end fade value (0-4095)
                   lastMillis + 0,               // start millis
-                  lastMillis + (uint16_t)SCOPE_PERIOD / 5  // end millis
+                  lastMillis + (uint16_t)SCOPE_PERIOD / 4   // end millis
                  );
 
       tlc_addFade(channel,                      // led channel

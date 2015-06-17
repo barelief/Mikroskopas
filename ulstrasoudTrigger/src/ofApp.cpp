@@ -10,7 +10,7 @@ void ofApp::setup(){
 void ofApp::update()
 {	
 	player.update();
-	
+	/*
 	if (!videoIsStopped)
 	{
 
@@ -25,7 +25,7 @@ void ofApp::update()
 			stopMovie(); 
 	}
 
-
+	*/
 }
 
 //--------------------------------------------------------------
