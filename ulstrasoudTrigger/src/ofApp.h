@@ -87,8 +87,8 @@ public:
 		videoPosition.y = settings.getValue("y", 0);
 		player.loadMovie(fileName);
 		player.play();
-		//player.stop();
-		//player.setLoopState(OF_LOOP_NONE);
+		player.stop();
+		player.setLoopState(OF_LOOP_NONE);
 	}
 
 	void setupSerial()
